@@ -67,7 +67,7 @@ export default class LineItemTable extends React.Component<{},ILineItemTableStat
             aria-label="Line Items">
               <TableHead>
                 <TableRow>
-                  <TableCell align='left'>Title</TableCell>
+                  <TableCell align='left'>Item Title</TableCell>
                   <TableCell align='left'>Labor Costs</TableCell>
                   <TableCell align='left'>Material Costs</TableCell>
                   <TableCell align='left'>Inclusive Costs</TableCell>

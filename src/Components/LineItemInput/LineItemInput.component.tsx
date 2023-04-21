@@ -2,7 +2,6 @@ import { Button, IconButton, InputAdornment, TableCell, TableRow, TextField } fr
 import React from "react";
 import AddIcon from '@mui/icons-material/Add';
 import ILineItem from "../../DTOs/LineItem.dto";
-import Decimal from 'decimal.js';
 
 interface ILineItemInputProps {
     AddItemCallback: (input: ILineItem) => void,
@@ -76,6 +75,7 @@ export default class LineItemInput extends React.Component<ILineItemInputProps, 
           InclusiveCost: 0,
           Units: 1,
           touched:false,
+          TotalCost:0
         });
     };
 
